@@ -2,7 +2,7 @@
 длина которых меньше или равна 3 символа. Первоначальный массив можно ввести с клавиатуры, либо 
 задать на старте выполнения алгоритма.
 
-["hello", "2", "world", "!", ";)"] */
+["hola", "2", "world", "!", ";)"] */
 
 void FillSecondArray(string[] array1, string[] array2)
 {
@@ -18,7 +18,7 @@ void FillSecondArray(string[] array1, string[] array2)
 }
 
 Console.Clear();
-string[] array1 = new string[] {"hello", "2", "world", "!!!", ";)"};
+string[] array1 = new string[] {"hola", "2", "world", "!!!", ";)"};
 Console.WriteLine($"{string.Join(" ", array1)}");
 string[] array2 = new string[array1.Length];
 FillSecondArray(array1, array2);
